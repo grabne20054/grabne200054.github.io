@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS passwords;
+
+CREATE TABLE "users" (
+  "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+  "username" TEXT NOT NULL,
+  "password" TEXT
+);
+
+CREATE TABLE "passwords" (
+  "id" INTEGER PRIMARY KEY,
+  "userid" INTEGER NOT NULL,
+  "password_hash" TEXT NOT NULL,
+  FOREIGN KEY (userid) REFERENCES users(id)
+);
+
+
