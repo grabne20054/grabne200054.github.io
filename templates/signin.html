@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TestWiz</title>
+    
+    <div class="bar">
+      <a class="active" href="/">Home</a>
+      <a href="login.html">Login</a>
+      <a href="signin.html">Sign In</a>
+    </div>
+    <h1>Welcome to the SignIn of TestWiz!</h1>
+  </head>
+  <body>
+    {% if error %}
+      <p>{{ error }}</p>
+    {% endif %}
+    <form method="post">
+      <label for="username">username:</label>
+      <input type="text" id="username" name="username"><br>
+      <label for="password">password:</label>
+      <input type="password" id="password" name="password"><br>
+      <input type="submit" value="SignIn">
+    </form>
+  </body>
+</html>
