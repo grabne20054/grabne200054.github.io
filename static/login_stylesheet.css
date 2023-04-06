@@ -1,0 +1,199 @@
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: hsl(0, 0%, 37%);
+}
+
+li a button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.nav_links{
+	list-style: none;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease-in-out 0s;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+.nav_links li a:hover{
+	color: blue;
+	border-bottom:0.188em solid blue;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: rgba(0,136,169,0.8);
+}
+
+h1{
+
+	text-align: center;
+	font-size:2.5em;
+	line-height:3.8em;
+	font-weight:100;
+	color:rgb(255, 255, 255);
+	/* background-color: rgb(21, 0, 255); */
+	color: steelblue;
+	margin:0em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: larger;
+	
+}
+
+.bar{
+	text-align: center;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	.bar a{
+		text-decoration:none;
+		color: black;
+	}
+
+	.bar a:hover{
+		border-bottom: 0.188em solid rgb(64, 0, 255);
+	}
+
+head img{
+	size: 50px 50px;
+}
+
+.login{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+	
+	background: url("/pics/stubenbergamsee.png");
+	background-size: 400px 400px;
+}
+#button{
+	font-size: 16px;
+	font-weight: 700;
+	color: black;
+	background-color: #0435f6;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 24px;
+	position: relative;
+	border-radius: 9px;
+	box-shadow: 0px 1px 2px #2B3044, 0px 4px 16px #2B3044;
+	transform-style: preserve-3d;
+	transform: scale(var(--s, 1)) perspective(600px);
+	perspective: 600px;
+	transition: transform 0.1;
+	margin: 2% 500px;
+}
+
+#desc{
+	font-size: 16px;
+	font-weight: 700;
+	border: blue;
+	border-style: inset;
+	outline:none;
+	cursor:row-resize;
+	padding: 12px 24px;
+	position: relative;
+	border-radius: 9px;
+	transform-style: preserve-3d;
+	transform: scale(var(--s, 1)) perspective(600px);
+	perspective: 600px;
+	position:relative;
+}
+
+#box{
+	font-size: 16px;
+	font-weight: 700;
+	border: blue;
+	border-style: inset;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 24px;
+	margin: 12px 12px;
+	position: relative;
+	border-radius: 9px;
+	transform-style: preserve-3d;
+	transform: scale(var(--s, 1)) perspective(600px);
+	perspective: 600px;
+	position:-webkit-sticky;
+}
+
+label{
+	width: 30%;
+}
+
+input{
+	display: inline-block;
+	width: 10%;
+}
+
+.button{
+	text-align:left;
+}
+
+.line{
+	height: 1.6px;
+	background-color: black;
+}
+
+footer {
+	background:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+	footer ul {
+		width:100%;
+		max-width:980px;
+		text-align:left;
+		margin:0px auto;
+		text-align: center;
+	}
+	footer ul li {
+		display:inline-block;
+		text-align: center;
+		font-size:0.8em;
+		line-height:2.8em;
+		color:rgb(13, 0, 255);
+		padding:0em 0.500em 0em 0.625em
+	}

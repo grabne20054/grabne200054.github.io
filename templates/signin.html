@@ -2,24 +2,46 @@
 <html>
   <head>
     <title>TestWiz</title>
-    
-    <div class="bar">
-      <a class="active" href="/">Home</a>
-      <a href="login.html">Login</a>
-      <a href="signin.html">Sign In</a>
-    </div>
+    <link rel="stylesheet" href="/static/signin_stylesheet.css" />
+    <header>
+      <img class="logo" src="/pics/menu.png">
+      <nav>
+      <ul class="nav_links">
+          <li><a href="/">Home</a></li>
+          <li><a href="login.html">Log in</a></li>
+          <li><a href="signin.html">Sign in</a></li>
+      </ul>
+      </nav>
+      <a class="cta" href="#"><button>Contact</button></a>
+  </header>s
     <h1>Welcome to the SignIn of TestWiz!</h1>
   </head>
   <body>
     {% if error %}
       <p>{{ error }}</p>
     {% endif %}
+  <div class="signin">
+    <div class="box">
+      
+    </div>
     <form method="post">
-      <label for="username">username:</label>
-      <input type="text" id="username" name="username"><br>
-      <label for="password">password:</label>
-      <input type="password" id="password" name="password"><br>
-      <input type="submit" value="SignIn">
+      <label id="desc" for="username">username:</label>
+      <input id="box" type="text" id="username" name="username"><br>
+      <label id="desc" for="password">password:</label>
+      <input id="box" type="password" id="password" name="password"><br>
+      <input id="button" class="button" type="submit" value="Sign in">
     </form>
+  </div>
+    <div class="backround-img"></div>
   </body>
+  <footer>
+    <div class="line"></div>
+    <ul>
+     <li>&copy; 2023 Kreizfidöln</li>
+     <li>Kontakt</li>
+     <li>Datenschutz</li>
+     <li>Impressum</li>
+    </ul>
+   </footer>
+ 
 </html>
