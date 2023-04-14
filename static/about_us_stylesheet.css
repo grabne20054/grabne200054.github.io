@@ -1,0 +1,144 @@
+
+body{
+    background-color: #8d8d92;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin: 0;
+}
+
+h1{
+
+	text-align: center;
+	font-size:2.5em;
+	line-height:3.8em;
+	font-weight:100;
+	color:rgb(255, 255, 255);
+	/* background-color: rgb(21, 0, 255); */
+	color: rgb(0, 0, 0);
+	margin:0em;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+footer {
+	margin-top: 20%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	footer ul {
+		width:100%;
+		max-width:980px;
+		text-align:left;
+		margin:100px auto;
+		text-align: center;
+	}
+	footer ul li {
+		display:inline-block;
+		text-align: center;
+		font-size:0.8em;
+		line-height:2.8em;
+		color:rgb(255, 255, 255);
+		padding:0em 0.500em 0em 0.625em
+	}
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+
+}
+
+img {
+    height: 65px;
+}
+
+.button1{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.button1:hover{
+	background-color: rgba(0,136,169,0.8);
+}
+
+.logo_button{
+	background: transparent;
+	border: transparent;
+}
+
+.nav_links {
+    display: flex;
+	list-style: none;
+    text-align: center;
+
+}
+
+.nav_links li {
+	margin: 0 10px;
+}
+
+.nav_links li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav_links li a:hover{
+	color: blue;
+	border-bottom:0.188em solid blue;
+}
+
+
+.bar{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
+}
+
+.pics_people
+{
+    height: 400px;
+    width: auto;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: x-large;
+	text-align: center;
+	margin: 50px;
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: xx-large;
+	text-align: center;
+	margin: 50px;
+}
